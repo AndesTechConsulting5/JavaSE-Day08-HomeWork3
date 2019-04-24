@@ -13,7 +13,7 @@ public class DebitAccount extends Account {
 
 
     //фабричный метод
-    public static DebitAccount debitAccount(int id, double balance, Customer customer) throws DebitAccountException, CustomerException {
+    public static DebitAccount debitAccount(int id, double balance, Customer customer) throws CustomerException {
         if(customer.getAge() < 18) {
             throw new CustomerException("Возраст не подходит!");
         } else {
