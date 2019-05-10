@@ -7,7 +7,7 @@ import org.junit.Test;
 /**
  * Unit test for simple AppHome.
  */
-public class AppHomeTest
+public class AppTest
 {
     /**
      * Rigorous Test :-)
